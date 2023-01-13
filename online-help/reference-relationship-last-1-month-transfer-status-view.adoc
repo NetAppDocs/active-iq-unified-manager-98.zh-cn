@@ -1,0 +1,66 @@
+---
+permalink: online-help/reference-relationship-last-1-month-transfer-status-view.html 
+sidebar: sidebar 
+keywords:  
+summary: 通过Relationship：Last 1 Month Transfer Status视图、您可以分析异步关系中卷在一段时间内的卷传输趋势。此页面还会显示卷传输是成功还是失败。 
+---
+= Relationship ： Last 1 Month Transfer Status 视图
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+通过Relationship：Last 1 Month Transfer Status视图、您可以分析异步关系中卷在一段时间内的卷传输趋势。此页面还会显示卷传输是成功还是失败。
+
+通过沿页面顶部排列的控件、您可以选择特定视图(运行状况、性能、容量等)、执行搜索以查找特定对象、创建并应用筛选器以缩小显示的数据列表范围、在页面上添加/删除列或对列重新排序、并将页面上的数据导出到 `.csv`， `.pdf`或 `.xlsx` 文件自定义页面后，您可以将结果保存为自定义视图，然后计划定期生成此数据的报告并通过电子邮件发送。
+
+* * 源卷 *
++
+显示源卷名称。
+
+* * 目标卷 *
++
+显示目标卷名称。
+
+* * 操作类型 *
++
+显示卷传输的类型。
+
+* * 操作结果 *
++
+显示卷传输是否成功。
+
+* * 传输开始时间 *
++
+显示卷传输开始时间。
+
+* * 传输结束时间 *
++
+显示卷传输结束时间。
+
+* * 传输持续时间 *
++
+显示完成卷传输所用的时间（以小时为单位）。
+
+* * 传输大小 *
++
+显示已传输卷的大小（以 MB 为单位）。
+
+* * 源 SVM*
++
+显示 Storage Virtual Machine （ SVM ）名称。
+
+* * 源集群 *
++
+显示源集群名称。
+
+* * 目标 SVM*
++
+显示目标 SVM 名称。
+
+* * 目标集群 *
++
+显示目标集群名称。
+
+

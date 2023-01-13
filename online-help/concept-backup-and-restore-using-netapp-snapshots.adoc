@@ -1,0 +1,25 @@
+---
+permalink: online-help/concept-backup-and-restore-using-netapp-snapshots.html 
+sidebar: sidebar 
+keywords:  
+summary: NetApp Snapshot 备份会为 Unified Manager 数据库和配置文件创建一个时间点映像，您可以使用此映像在发生系统故障或数据丢失时进行还原。您计划定期将 Snapshot 备份写入其中一个 ONTAP 集群上的卷，以便始终具有最新副本。 
+---
+= 使用 NetApp Snapshot 进行备份和还原
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp Snapshot 备份会为 Unified Manager 数据库和配置文件创建一个时间点映像，您可以使用此映像在发生系统故障或数据丢失时进行还原。您计划定期将 Snapshot 备份写入其中一个 ONTAP 集群上的卷，以便始终具有最新副本。
+
+[NOTE]
+====
+只有当Unified Manager安装在Red Hat Enterprise Linux或CentOS Linux服务器上时、才可使用此功能。
+
+====
+Snapshot 备份所需时间非常短，通常只需几分钟， Unified Manager 数据库锁定时间非常短，因此不会对安装造成任何中断。此映像占用的存储空间极少，并且性能开销极低，因为它仅记录自上次创建 Snapshot 副本以来对文件所做的更改。由于 Snapshot 是在 ONTAP 集群上创建的，因此您可以根据需要利用 SnapMirror 等其他 NetApp 功能来创建二级保护。
+
+在开始备份操作之前， Unified Manager 会执行完整性检查以验证目标系统是否可用。
+
+请注意、您只能在同一版本的Unified Manager上还原Snapshot备份。例如、如果您在Unified Manager 9.8上创建备份、则只能在Unified Manager 9.8系统上还原备份。

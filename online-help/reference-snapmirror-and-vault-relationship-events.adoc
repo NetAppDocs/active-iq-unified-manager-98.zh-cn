@@ -1,0 +1,99 @@
+---
+permalink: online-help/reference-snapmirror-and-vault-relationship-events.html 
+sidebar: sidebar 
+keywords:  
+summary: SnapMirror和存储关系事件可为您提供有关异步SnapMirror和存储关系状态的信息、以便您可以监控潜在问题。事件按影响区域分组，并包括事件和陷阱名称，影响级别，源类型和严重性。 
+---
+= SnapMirror和存储关系事件
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SnapMirror和存储关系事件可为您提供有关异步SnapMirror和存储关系状态的信息、以便您可以监控潜在问题。事件按影响区域分组，并包括事件和陷阱名称，影响级别，源类型和严重性。
+
+
+
+== 影响区域：保护
+
+|===
+| 事件名称（陷阱名称） | 影响级别 | 源类型 | severity 
+
+
+ a| 
+异步镜像和存储运行不正常（ ocumEvtMirrorVaultRelationshipUnhealthy ）
+ a| 
+风险
+ a| 
+SnapMirror 关系
+ a| 
+警告
+
+
+
+ a| 
+异步镜像和存储已断开（ ocumEvtMirrorVaultRelationshipStateBrokenoff ）
+ a| 
+风险
+ a| 
+SnapMirror 关系
+ a| 
+error
+
+
+
+ a| 
+异步镜像和存储初始化失败（ ocumEvtMirrorVaultRelationshipInitializeFailed ）
+ a| 
+风险
+ a| 
+SnapMirror 关系
+ a| 
+error
+
+
+
+ a| 
+异步镜像和存储更新失败（ ocumEvtMirrorVaultRelationshipUpdateFailed ）
+ a| 
+风险
+ a| 
+SnapMirror 关系
+ a| 
+error
+
+
+
+ a| 
+异步镜像和存储滞后错误（ ocumEvtMirrorVaultRelationLagshipError ）
+ a| 
+风险
+ a| 
+SnapMirror 关系
+ a| 
+error
+
+
+
+ a| 
+异步镜像和存储滞后警告（ ocumEvtMirrorVaultRelationLagshipWarning ）
+ a| 
+风险
+ a| 
+SnapMirror 关系
+ a| 
+警告
+
+
+
+ a| 
+异步镜像和存储重新同步失败（ ocumEvtMirrorVaultRelationshipResyncFailed ）
+ a| 
+风险
+ a| 
+SnapMirror 关系
+ a| 
+error
+
+|===

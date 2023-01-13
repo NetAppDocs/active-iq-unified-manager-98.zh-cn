@@ -1,0 +1,38 @@
+---
+permalink: online-help/task-enabling-periodic-autosupport.html 
+sidebar: sidebar 
+keywords: Active IQ 
+summary: 您可以选择将特定的预定义AutoSupport 消息自动从Unified Manager发送给技术支持、以确保环境正常运行、并帮助您保持环境的完整性。默认情况下、AutoSupport 处于启用状态、并且不能将其禁用、您才能获得NetAppActive IQ的优势。 
+---
+= 启用定期 AutoSupport
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以选择将特定的预定义AutoSupport 消息自动从Unified Manager发送给技术支持、以确保环境正常运行、并帮助您保持环境的完整性。默认情况下、AutoSupport 处于启用状态、并且不能将其禁用、您才能获得NetAppActive IQ的优势。
+
+
+
+== 开始之前
+
+您必须以维护用户身份登录。
+
+
+
+== 关于此任务
+
+Active IQ 是NetApp 支持站点 上托管的一款基于Web的应用程序、您可以使用浏览器访问该应用程序。您的系统必须启用并配置AutoSupport 、才能将数据发送回NetApp。
+
+https://mysupport.netapp.com/info/web/AboutAIQ.html["NetApp Active IQ"]
+
+
+
+== 步骤
+
+. 在左侧导航窗格中、单击*常规*>* AutoSupport *。
+. 选中*启用定期向Active IQ 发送AutoSupport 数据*复选框。
+. 如果需要、请定义HTTP代理服务器的名称、端口和身份验证信息。
+. 单击 * 保存 * 。
+
