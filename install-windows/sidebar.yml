@@ -1,9 +1,9 @@
 ---
 section: install-windows
-title: c1a9193a29dc40ec352c6691d67ab578
+title: 在 Windows 系统上安装 Unified Manager
 entries:
 - title: Active IQ Unified Manager 简介
-  pdf-filename: a0af5ca8f7344392b5c82b109a63af72
+  pdf-filename: Active IQ Unified Manager 简介(Windows系统)
   url: "/install-windows/concept-introduction-to-unified-manager.html"
   entries:
   - title: Unified Manager 服务器的功能
@@ -11,7 +11,7 @@ entries:
   - title: 安装顺序概述
     url: "/install-windows/concept-overview-of-the-installation-sequence-um.html"
 - title: Unified Manager 的安装要求
-  pdf-filename: 70104377094a1b08793fc5ab5e6bbf34
+  pdf-filename: 安装Unified Manager的要求(Windows系统)
   url: "/install-windows/concept-requirements-for-installing-unified-manager.html"
   entries:
   - title: 虚拟基础架构和硬件系统要求
@@ -25,7 +25,7 @@ entries:
   - title: 正在完成工作表
     url: "/install-windows/reference-completing-the-worksheet-um.html"
 - title: 安装，升级和删除 Unified Manager 软件
-  pdf-filename: 8d6c82b2ac4ea5256730039b09b01a10
+  pdf-filename: 安装、升级和删除Unified Manager软件(Windows系统)
   url: "/install-windows/concept-installing-upgrading-and-removing-unified-manager-software.html"
   entries:
   - title: 安装过程概述
@@ -42,7 +42,7 @@ entries:
   - title: 升级 Unified Manager
     url: "/install-windows/task-upgrading-to-unified-manager-on-microsoft-windows.html"
   - title: 升级第三方产品
-    pdf-filename: 013bd757b5f39b48944aa701029bfff3
+    pdf-filename: 升级第三方产品(Windows系统)
     url: "/install-windows/concept-upgrading-third-party-products-on-windows-um.html"
     entries:
     - title: 升级 OpenJDK
