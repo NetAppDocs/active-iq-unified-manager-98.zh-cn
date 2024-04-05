@@ -1,6 +1,6 @@
 ---
 section: data-protection
-title: 保护和还原数据
+title: d549fcac9e4340e7fb3d154a339f9c13
 entries:
 - title: 创建，监控保护关系并对其进行故障排除
   url: "/data-protection/concept-creating-and-monitoring-protection-relationships.html"
@@ -30,7 +30,7 @@ entries:
     - title: 通过卷 / 运行状况详细信息页面重新同步保护关系
       url: "/data-protection/task-resynchronizing-protection-relationships-from-the-health-volume-details-page.html"
   - title: 解决保护作业故障
-    pdf-filename: 解决保护作业故障(数据保护)
+    pdf-filename: daf5556e2cd44d363ebb94f982b54758
     url: "/data-protection/task-resolving-a-protection-job-failure.html"
     entries:
     - title: 确定问题并对失败的保护作业执行更正操作
@@ -38,7 +38,7 @@ entries:
   - title: 解决滞后问题
     url: "/data-protection/task-resolving-lag-issues.html"
 - title: 管理和监控保护关系
-  pdf-filename: 管理和监控保护关系(数据保护)
+  pdf-filename: 63c702324d7a2f1acfb2291776c09e62
   url: "/data-protection/concept-managing-and-monitoring-protection-relationships.html"
   entries:
   - title: 查看卷保护关系
@@ -132,7 +132,7 @@ entries:
   - title: 重试失败的保护作业
     url: "/data-protection/task-retrying-a-failed-protection-job.html"
   - title: 保护关系的问题描述窗口和对话框
-    pdf-filename: 问题描述 of Protection Relationships窗口和对话框(数据保护)
+    pdf-filename: 721e2c530014fb77b39a26e93e0ef94b
     url: "/data-protection/reference-description-of-protection-relationships-window-and-dialog-boxes.html"
     entries:
     - title: 资源池页面
