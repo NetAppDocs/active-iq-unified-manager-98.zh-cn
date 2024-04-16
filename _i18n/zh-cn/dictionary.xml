@@ -12727,4 +12727,14 @@
   <block id="aa193eacf5a35a85044e44de3fa9c91a" category="sidebar">Unified Manager 视频</block>
   <block id="197833bfff97d501603036a0febb7a95" category="sidebar">Unified Manager 博客</block>
   <block id="c0fd3a67a0f9d526734eae8cf8142cb4" category="sidebar">最新版本Active IQ Unified Manager 的文档</block>
+  <block id="9fde9515d3a1ede8d6f12a1892c894ec" category="sidebar">联机帮助</block>
+  <block id="d667ab1eefcedffdc31f52ebff9d478d" category="sidebar">Active IQ Unified Manager 简介(管理和监控)</block>
+  <block id="21287f9310da73025b9619111ce2ce7e" category="sidebar">看到 <strong>"修复</strong> "或 <strong>"全部修复</strong> "按钮时、我有哪些选项</block>
+  <block id="19966a54541b838c85278932c36c8122" category="sidebar">更改Unified Manager主机名(管理和监控)</block>
+  <block id="433a3de67ad10a966d2b8b61c37210d2" category="sidebar">向Unified Manager数据库目录添加磁盘空间(管理和监控)</block>
+  <block id="c1a9193a29dc40ec352c6691d67ab578" category="sidebar">在 Windows 系统上安装 Unified Manager</block>
+  <block id="a0af5ca8f7344392b5c82b109a63af72" category="sidebar">Active IQ Unified Manager 简介(Windows系统)</block>
+  <block id="70104377094a1b08793fc5ab5e6bbf34" category="sidebar">安装Unified Manager的要求(Windows系统)</block>
+  <block id="8d6c82b2ac4ea5256730039b09b01a10" category="sidebar">安装、升级和删除Unified Manager软件(Windows系统)</block>
+  <block id="013bd757b5f39b48944aa701029bfff3" category="sidebar">升级第三方产品(Windows系统)</block>
 </blocks>
