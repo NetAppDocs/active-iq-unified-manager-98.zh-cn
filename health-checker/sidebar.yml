@@ -1,6 +1,6 @@
 ---
 section: health-checker
-title: 32d8b1bb1bdc5067bfbde495253b3469
+title: 监控和管理集群运行状况
 entries:
 - title: Active IQ Unified Manager 运行状况监控简介
   url: "/health-checker/concept-introduction-to-unified-manager-health-monitoring.html"
@@ -38,13 +38,13 @@ entries:
     - title: 对已满的卷执行建议的补救措施
       url: "/health-checker/task-performing-suggested-remedial-actions-for-a-full-volume.html"
   - title: 管理运行状况阈值
-    pdf-filename: 0cdc2e43fd617d44b61e3c28d05ef9e7
+    pdf-filename: 管理运行状况阈值(集群运行状况)
     url: "/health-checker/concept-managing-health-thresholds.html"
     entries:
     - title: 什么是存储容量运行状况阈值
       url: "/health-checker/concept-what-storage-capacity-health-thresholds-are.html"
     - title: 配置全局运行状况阈值设置
-      pdf-filename: a4d86585f88de3caa783eefc33f81448
+      pdf-filename: 配置全局运行状况阈值设置(集群运行状况)
       url: "/health-checker/task-configuring-global-health-threshold-settings.html"
       entries:
       - title: 配置全局聚合运行状况阈值
@@ -62,11 +62,11 @@ entries:
     - title: 编辑单个 qtree 运行状况阈值设置
       url: "/health-checker/task-editing-individual-qtree-health-threshold-settings.html"
   - title: 管理集群安全目标
-    pdf-filename: d399cb65a45975e7bdfbe00c026f9e54
+    pdf-filename: 管理集群安全目标(集群运行状况)
     url: "/health-checker/concept-managing-cluster-security-objectives.html"
     entries:
     - title: 评估的安全标准是什么
-      pdf-filename: 595ab232cf3a33e7d9061971978c8478
+      pdf-filename: 评估的安全条件(集群运行状况)
       url: "/health-checker/concept-what-security-criteria-is-being-evaluated.html"
       entries:
       - title: 集群合规性类别
@@ -96,13 +96,13 @@ entries:
     - title: 安全事件
       url: "/health-checker/reference-security-events.html"
   - title: 管理备份和还原操作
-    pdf-filename: 99f7fc554597facf78ccd7bebb349a82
+    pdf-filename: 管理备份和还原操作(集群运行状况)
     url: "/health-checker/concept-managing-backup-and-restore-operations.html"
     entries:
     - title: 虚拟设备备份和还原过程
       url: "/health-checker/concept-backup-and-restore-on-virtual-appliance.html"
     - title: 使用 MySQL 数据库转储进行备份和还原
-      pdf-filename: 3b1058ff08792a3433d6a10b9fb8b6fe
+      pdf-filename: 使用MySQL数据库转储进行备份和还原(集群运行状况)
       url: "/health-checker/concept-backup-and-restore-using-a-mysql-database-dump.html"
       entries:
       - title: 配置数据库转储备份的目标和计划
@@ -114,7 +114,7 @@ entries:
       - title: 在 Windows 上还原 MySQL 数据库备份
         url: "/health-checker/task-restoring-a-mysql-database-backup-on-windows.html"
     - title: 使用 NetApp Snapshot 进行备份和还原
-      pdf-filename: 534c8d4c808923383712e17e50530568
+      pdf-filename: 使用NetApp Snapshot进行备份和还原(集群运行状况)
       url: "/health-checker/concept-backup-and-restore-using-netapp-snapshots.html"
       entries:
       - title: 创建用于存储备份的卷
@@ -128,7 +128,7 @@ entries:
     - title: 将 Unified Manager 虚拟设备迁移到 Linux 系统
       url: "/health-checker/task-migrating-a-unified-manager-virtual-appliance-to-a-rhel-or-centos-system.html"
   - title: 管理脚本
-    pdf-filename: 41373b97896fa2cbe5f9c98d158879dc
+    pdf-filename: 管理脚本(集群运行状况)
     url: "/health-checker/concept-managing-scripts.html"
     entries:
     - title: 脚本如何处理警报
@@ -140,11 +140,11 @@ entries:
     - title: 测试脚本执行
       url: "/health-checker/task-testing-script-execution.html"
   - title: 管理和监控组
-    pdf-filename: 8cb3de1dd32fe03b6b18b81a93da83e8
+    pdf-filename: 管理和监控组(集群运行状况)
     url: "/health-checker/concept-managing-and-monitoring-groups.html"
     entries:
     - title: 了解组
-      pdf-filename: ed4a47a0df5e1dccb40840219fa50571
+      pdf-filename: 了解组(集群运行状况)
       url: "/health-checker/concept-understanding-groups.html"
       entries:
       - title: 什么是组
@@ -210,7 +210,7 @@ entries:
     - title: 重新排列标注规则
       url: "/health-checker/task-reordering-annotation-rules.html"
   - title: 什么是 Unified Manager 维护窗口
-    pdf-filename: 458c6c03d066ca184930dd208d270f0f
+    pdf-filename: 什么是Unified Manager维护窗口(集群运行状况)
     url: "/health-checker/concept-what-a-um-maintenance-window-is.html"
     entries:
     - title: 计划维护窗口以禁用集群事件通知
@@ -220,7 +220,7 @@ entries:
     - title: 查看维护窗口期间发生的事件
       url: "/health-checker/task-viewing-events-that-occurred-during-a-maintenance-window.html"
   - title: 管理 SAML 身份验证设置
-    pdf-filename: b6a37febbfcd299253addfaef17d14d2
+    pdf-filename: 管理SAML身份验证设置(集群运行状况)
     url: "/health-checker/concept-managing-saml-authentication-settings-um.html"
     entries:
     - title: 身份提供程序要求
@@ -258,7 +258,7 @@ entries:
     - title: 确认并解决事件
       url: "/health-checker/task-acknowledging-and-resolving-events.html"
     - title: 事件详细信息页面
-      pdf-filename: b18762187a76685e14050770c534b8bf
+      pdf-filename: 事件详细信息页面(集群运行状况)
       url: "/health-checker/reference-event-details-page.html"
       entries:
       - title: Event Information 部分显示的内容
